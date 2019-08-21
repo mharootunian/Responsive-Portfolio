@@ -1,0 +1,92 @@
+.img-class {
+    float: left;
+    padding: 0px 2.5%;
+  
+  } 
+
+.name-logo {
+    /* position: relative; */
+    color: white;
+    background: #4aaaa5;
+    text-align: left;
+    float: left;
+    height: 100%;
+    margin: 0px 0px 0px 10%;
+}
+
+.nav-links {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    top: 0px;
+    margin: 0 10% 0 0;
+    color: #777777;
+}
+
+.nav-links li {
+    /* padding: 1% 0 0 0 ; */
+    display: inline-block;  
+}
+
+.nav-links a {
+    padding: 0px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10% 0 0 0;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table; 
+}   
+
+.header-body {
+
+}
+
+h2 {
+    color: #4aaaa5;
+    position: relative;
+    margin-left: 2.5%;
+}
+
+header {
+    overflow: hidden;
+    padding:0px;
+    clear: both;
+    background: #ffffff;
+    border-bottom-style: inset;
+    border-color: #cccccc;
+    border-width: 1px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+content {
+    /* margin: 100%; */
+    clear: both;
+}
+
+article {
+    border: 1px solid dddddd;
+    margin: 3% 0% 0 10%;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+}
+
+body {
+    background-image: url("../images/fishnets-and-hearts.png");
+    top: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
