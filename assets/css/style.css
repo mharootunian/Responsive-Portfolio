@@ -217,26 +217,63 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+  
   .main-section {
-    width: 660px;
-    height: 300px;
-    height: auto;
-    overflow: auto;
+    max-width: 600px;
+    padding: 0px 30px 0 30px;
+  }
+
+
+  #main-container {
+    margin: 0 0 0 30px;
+  }
+
+
+  #masthead {
+    padding: 0 30px 0 30px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  html {
+    padding: 0;
+    height: 100%;
+  }
+
+  footer {
+    width: 100%;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .main-section {
-    width: 660px;
-    height: auto;
-    overflow: auto;
+    max-width: 700px;
+    padding: 0px 30px 0 30px;
   }
 
-  .main-section p {
-    font-size: 10px;
+
+  #main-container {
+    margin: 0 0 0 30px;
+  }
+
+
+  #masthead {
+    padding: 0 30px 0 30px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 
   }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -254,6 +291,7 @@ input[type=submit] {
 
   #masthead {
     width: 100%;
+    max-width: 640px;
   }
 
   #logo {
